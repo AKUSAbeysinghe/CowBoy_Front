@@ -244,6 +244,79 @@
 
 
 
+// import React from "react";
+// import LeanInto from "../assets/LeanInto.png";
+// import { motion } from "framer-motion";
+
+// const ProductShowcase = () => {
+//   return (
+//     <section className="relative min-h-screen flex flex-col md:flex-row bg-gradient-to-r from-[#f9f9f7] to-[#e9ecef] items-center md:items-stretch justify-between px-6 py-16">
+      
+      
+      
+//       {/* Content left */}
+//       <div className="w-full md:w-1/2 flex flex-col justify-center md:pr-12 mb-10 md:mb-0">
+//         <p className="text-lg font-medium text-gray-700 mb-2">Classic</p>
+//         <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8">
+//           Lean into it
+//         </h1>
+//         <div className="flex items-center space-x-4 mb-12">
+//           <button className="bg-black text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-800 transition duration-300">
+//             Explore
+//           </button>
+//           <p className="text-xl font-medium">From €2,699</p>
+//           <a href="#" className="text-lg text-black hover:underline flex items-center">
+//             Book a free test ride
+//             <svg
+//               xmlns="http://www.w3.org/2000/svg"
+//               className="h-5 w-5 ml-1"
+//               viewBox="0 0 20 20"
+//               fill="currentColor"
+//             >
+//               <path
+//                 fillRule="evenodd"
+//                 d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+//                 clipRule="evenodd"
+//               />
+//             </svg>
+//           </a>
+//         </div>
+
+//         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm text-gray-700">
+//           <div>
+//             <p className="font-semibold">Find My Bike</p>
+//             <p>Theft Detection</p>
+//           </div>
+//           <div>
+//             <p className="font-semibold">Custom AdaptivePower™</p>
+//             <p>Automatic assistance</p>
+//           </div>
+//           <div>
+//             <p className="font-semibold">Servicing Nearby</p>
+//             <p>200+ stores</p>
+//           </div>
+//         </div>
+//       </div>
+
+
+
+//       {/* Image right */}
+//       <div className="w-full md:w-1/2 flex justify-center items-center">
+//         <img
+//           src={LeanInto}
+//           alt="Cowboy Bike"
+//           className="max-h-[700px] w-auto object-contain"
+//         />
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default ProductShowcase;
+
+
+
+
 import React from "react";
 import LeanInto from "../assets/LeanInto.png";
 import { motion } from "framer-motion";
@@ -251,8 +324,17 @@ import { motion } from "framer-motion";
 const ProductShowcase = () => {
   return (
     <section className="relative min-h-screen flex flex-col md:flex-row bg-gradient-to-r from-[#f9f9f7] to-[#e9ecef] items-center md:items-stretch justify-between px-6 py-16">
-      {/* Content left */}
-      <div className="w-full md:w-1/2 flex flex-col justify-center md:pr-12 mb-10 md:mb-0">
+
+      {/* Content left with slide down animation */}
+      <motion.div
+        className="w-full md:w-1/2 flex flex-col justify-center md:pr-12 mb-10 md:mb-0"
+        initial={{ opacity: 0, y: -50 }} // from top
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0.8 }}
+
+        
+      >
         <p className="text-lg font-medium text-gray-700 mb-2">Classic</p>
         <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8">
           Lean into it
@@ -293,18 +375,25 @@ const ProductShowcase = () => {
             <p>200+ stores</p>
           </div>
         </div>
-      </div>
+      </motion.div>
 
-      {/* Image right */}
-      <div className="w-full md:w-1/2 flex justify-center items-center">
+      {/* Image right (optional animation or static) */}
+      <motion.div
+        className="w-full md:w-1/2 flex justify-center items-center"
+        initial={{ opacity: 0, x: 50 }} // slide in from right
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0.8 }}
+      >
         <img
           src={LeanInto}
           alt="Cowboy Bike"
           className="max-h-[700px] w-auto object-contain"
         />
-      </div>
+      </motion.div>
     </section>
   );
 };
 
 export default ProductShowcase;
+
