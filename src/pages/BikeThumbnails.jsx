@@ -34,9 +34,9 @@ const bikes = [
   },
 ];
 
-const BikeThumbnails = ({ onSelectBike }) => {
+const BikeThumbnails = ({ onSelectBike } ) => {
   return (
-    <section className="bg-gray-100 py-16 px-6">
+    <section className="bg-gray-100 py-16 px-6"  id="Bike-Thumbnails">
       <h2 className="text-3xl font-semibold text-center mb-12">Our Bikes</h2>
       <div className="flex flex-wrap justify-center gap-8 max-w-7xl mx-auto">
         {bikes.map((bike) => (
