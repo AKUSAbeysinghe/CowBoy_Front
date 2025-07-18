@@ -17,7 +17,8 @@ Basically, it’s a clone of the Cowboy Bike site. I wanted to challenge myself 
 
 Here are a couple of screenshots so you can get a feel for the site without running it:
 
-![Homepage](src/assets/screenshots/homepage.png)  
+![Homepage](src/assets/screenshots/homepage.png)  <img width="1900" height="860" alt="image" src="https://github.com/user-attachments/assets/30a85919-c1f1-4998-88c9-f7e15be1b47e" />
+
 ![Product Page](src/assets/screenshots/product-page.png)
 
 ## Try it yourself!
