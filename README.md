@@ -31,5 +31,5 @@ If you want to play around with the code or make changes, here’s how:
 
 1. Clone the repo:  
    ```bash
-   git clone https://github.com/yourusername/Cowboy_Bike_Clone.git
+   git clone https://github.com/AKUSAbeysinghe/CowBoy_Front.git
    cd Cowboy_Bike_Clone
