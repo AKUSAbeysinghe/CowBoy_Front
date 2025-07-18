@@ -23,7 +23,7 @@ Here are a couple of screenshots so you can get a feel for the site without runn
 ## Try it yourself!
 
 If you want to see it live, check out the demo here:  
-[Live Demo](https://yourusername.github.io/Cowboy_Bike_Clone/)
+[Live Demo](https://akusabeysinghe.github.io/CowBoy_Front/)
 
 ## How to run it locally
 
