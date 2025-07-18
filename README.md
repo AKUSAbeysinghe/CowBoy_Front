@@ -1,48 +1,35 @@
 # Cowboy Bike - React + Vite Clone
 
-A stunning, pixel-perfect clone of the official Cowboy Bike website, built using React and Vite to showcase modern web development best practices, blazing-fast performance, and a fully responsive, sleek user experience.
+Hey there! This is my take on the Cowboy Bike website — built with React and Vite. I tried to recreate the look and feel as close as possible while keeping the code clean and simple.
 
-## Project Overview
+## What’s this about?
 
-This project replicates the Cowboy Bike site’s clean design, smooth animations, and intuitive navigation. It leverages React’s powerful component-based architecture alongside Vite’s lightning-fast build system to deliver a seamless developer and user experience.
+Basically, it’s a clone of the Cowboy Bike site. I wanted to challenge myself with React and Vite, and this project was perfect for that. It’s responsive, smooth, and fast — just like the original.
 
-Whether you’re looking to learn React & Vite integration, explore responsive UI design, or simply admire a beautifully crafted bike website clone, this project has you covered.
+## What’s inside?
 
-## Features
-
-- Pixel-perfect UI: Faithful recreation of Cowboy Bike's visual style and layout
-- Responsive Design: Works flawlessly on mobile, tablet, and desktop
-- Smooth Animations: Transitions and effects for engaging user interaction
-- Fast Refresh: Instant updates during development powered by Vite
-- Clean Codebase: Modular React components with clear folder structure
-- SEO Friendly: Proper HTML semantics and metadata
-- Easy Deployment: Preconfigured for GitHub Pages hosting
-
-## Technology Stack
-
-- React 18: Declarative UI and component-driven architecture
-- Vite: Next-generation frontend tooling with rapid build and dev server
-- JavaScript (ES6+): Modern, clean syntax and features
-- CSS Modules / SCSS: Scoped and maintainable styling (adjust as per your setup)
-- GitHub Pages: Hosting for the static site
+- Clean and simple React components  
+- Responsive layout that looks good on phones and desktops  
+- Nice little animations and smooth transitions  
+- Quick setup with Vite for easy development and fast reloads  
 
 ## Screenshots
 
-<!-- Add screenshots here -->
+Here are a couple of screenshots so you can get a feel for the site without running it:
 
-![Screenshot 1](path-to-screenshot1.png)  
-![Screenshot 2](path-to-screenshot2.png)
+![Homepage](src/assets/screenshots/homepage.png)  
+![Product Page](src/assets/screenshots/product-page.png)
 
-## Demo
+## Try it yourself!
 
-<!-- Add your live demo link here -->
-
+If you want to see it live, check out the demo here:  
 [Live Demo](https://yourusername.github.io/Cowboy_Bike_Clone/)
 
-## Getting Started
+## How to run it locally
 
-### Clone the Repository
+If you want to play around with the code or make changes, here’s how:
 
-```bash
-git clone https://github.com/yourusername/Cowboy_Bike_Clone.git
-cd Cowboy_Bike_Clone
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/yourusername/Cowboy_Bike_Clone.git
+   cd Cowboy_Bike_Clone
