@@ -30,3 +30,29 @@ const SuperNaturalSection = () => {
 };
 
 export default SuperNaturalSection;
+
+
+
+
+
+// import React from "react";
+
+// const AdaptivePowerTextSection = () => {
+//   return (
+//     <section className="bg-[#f9f5ef] py-20 px-6 flex flex-col items-center justify-center text-center">
+//       <div className="max-w-4xl mx-auto">
+//         <p className="text-sm font-medium tracking-widest uppercase text-gray-700 mb-6">
+//           AdaptivePower 2.0
+//         </p>
+//         <h2 className="text-3xl md:text-4xl font-bold leading-tight text-black mb-8">
+//           With AdaptivePower™ technology, your bike thinks for itself. Encounter any resistance on the road, and it instantly adapts to what’s around you. Gain superhuman strength just when you need it – and experience the most natural ride feel ever.
+//         </h2>
+//         <button className="bg-transparent border border-black text-black px-8 py-3 rounded-full text-lg font-semibold hover:bg-black hover:text-white transition duration-300">
+//           VERSION 2.0
+//         </button>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default AdaptivePowerTextSection;
