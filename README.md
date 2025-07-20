@@ -29,7 +29,7 @@ Follow these steps to run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/AKUSAbeysinghe/CowBoy_Front
+git clone https://github.com/AKUSAbeysinghe/CowBoy_Front.git
 cd Cowboy_Bike_Clone
 
 # Install dependencies
