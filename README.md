@@ -22,7 +22,8 @@ This project replicates the look and feel of the official Cowboy Bike site while
 <img width="1898" height="851" alt="image" src="https://github.com/user-attachments/assets/47a9a88b-2e09-4bbd-afe6-aeb9daa6018e" />
 
 
-<img width="1897" height="770" alt="image" src="https://github.com/user-attachments/assets/7af7b035-0871-47be-83dc-791444486cc9" />
+<img width="1897" height="851" alt="image" src="https://github.com/user-attachments/assets/54cfce00-b306-4417-8125-e997a0674688" />
+
 
 
 
