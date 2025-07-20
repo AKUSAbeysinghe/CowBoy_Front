@@ -21,7 +21,7 @@ This project replicates the look and feel of the official Cowboy Bike site while
 ## Live Demo
 
 Experience the site live here:  
-[https://yourusername.github.io/Cowboy_Bike_Clone/](https://akusabeysinghe.github.io/CowBoy_Front/)
+[Cowboy Clone](https://akusabeysinghe.github.io/CowBoy_Front/)
 
 ## Getting Started
 
